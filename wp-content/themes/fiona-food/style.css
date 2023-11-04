@@ -1,0 +1,613 @@
+/*
+Theme Name: Fiona Food
+Theme URI: https://www.nayrathemes.com/fiona-food/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Fiona Food is perfect for writers, authors, motivators, bloggers and all types of blogs, news & magazines websites. It has come with all post formats like Standard, Video, Audio, Chat, Aside, Blockquote, Link, Gallery and more. Fiona backend functionality based on category, post, widget, & customizer. Unlock 11 homepages with exquisite sliders for different looks to your website. Guest users can switch theme color skins dark & light. This helps to make readers feel the pleasure of reading blog posts and articles. View the demo of Fiona Food Pro- https://www.nayrathemes.com/demo/pro/?theme=fiona-food
+Template: fiona-blog
+Version: 5.3
+Tested up to: 6.3
+Requires PHP: 5.6
+Requires at Least: 4.7
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fiona-food
+Slug: fiona-food
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, E-Commerce, food-and-drink, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+.section-18 .customize-tools {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    right: 90px;
+    transform: translateY(15%);
+    background: none;
+}
+
+.style-light .footer,
+.footer-section {
+    padding-top: 60px;
+    background: #F1F1F1;
+}
+
+.wp-block-calendar table th {
+    background: var(--sp-primary);
+}
+
+.style-dark .wp-block-calendar tbody td,
+.style-dark .wp-block-calendar table caption {
+    color: #fff;
+}
+
+.wp-block-archives {
+    list-style: none;
+}
+
+.sidebar .wp-block-search .wp-block-search__input,
+.footer-section .wp-block-search .wp-block-search__input {
+    min-width: 180px;
+}
+
+
+.wp-block-image figcaption {
+    text-align: center;
+}
+
+.wp-block-file a.wp-block-file__button {
+    background: var(--sp-primary);
+}
+
+.sidebar .widget_block ul li {
+    margin-bottom: 10px;
+}
+
+.wp-block-loginout a {
+    color: #ffffff;
+    background-color: var(--sp-primary);
+    border-color: var(--sp-primary);
+}
+
+.sidebar .widget_social_widget ul {
+    display: block;
+}
+
+.sidebar .widget.widget_social_widget li {
+    margin-bottom: 10px;
+}
+
+
+.style-dark .wp-block-calendar table caption {
+    background-color: #71777b;
+}
+
+.wp-block-calendar .wp-calendar-nav {
+    display: none;
+}
+
+.calendar_wrap table caption, 
+.wp-block-calendar table caption {
+    text-align: center;
+}
+
+.widget_shopping_cart_content .cart-header {
+    border-bottom: 1px solid rgb(189 189 189 / 0.45);
+    padding-bottom: 15px;
+}
+
+.widget_shopping_cart_content .cart-badge {
+    color: #ffffff;
+    font-size: 11px;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 2;
+    text-align: center;
+    vertical-align: super;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: var(--sp-primary);
+}
+
+.widget_shopping_cart_content .cart-total {
+    float: right;
+}
+
+.widget_shopping_cart_content li a {
+    border-bottom: none !important;
+}
+
+.post-content .wp-block-latest-comments {
+    padding: 0;
+}
+
+.footer-main .widget_shopping_cart ul {
+    padding-top: 10px;
+}
+
+
+.wp-block-button a.wp-block-button__link {
+    color: #ffffff;
+    background-color: var(--sp-primary);
+    border-color: inherit;
+}
+
+.footer-main .wp-block-latest-comments {
+    padding: 0;
+}
+
+.footer-main .widget.widget_social_widget {
+    margin-top: 0;
+}
+
+.widget .wp-block-social-links li a {
+    padding: 0.45rem !important;
+    border-bottom: none !important;
+    margin: 0px !important;
+}
+
+.sidebar .wp-block-buttons {
+    margin-bottom: 1em;
+}
+
+.sidebar ul.wp-block-social-links li:after {
+    content: none !important;
+}
+
+.woocommerce-account .edit-account .woocommerce-form-row {
+    display: block;
+}
+
+.fiona-blog-content ol.wp-block-latest-comments {
+    padding: 0;
+}
+
+.sidebar .widget_shopping_cart_content .cart-badge {
+    background-color: #000000;
+}
+
+.wp-block-buttons {
+    margin: 15px 0;
+}
+
+.wp-block-categories {
+    padding-left: 0;
+    list-style: none;
+}
+
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.post-password-form input[type="submit"] {
+    line-height: 3;
+    vertical-align: baseline;
+}
+
+.style-dark .footer-main table td {
+    color: #fff;
+}
+
+.header-info .header-item.widget-right {
+	z-index: 0;
+}
+
+.style-dark .calendar_wrap table td,
+.style-dark .calendar_wrap table caption,
+.style-dark .widget div.calendar_wrap .wp-calendar-nav span.wp-calendar-nav-prev a {
+    color: #fff;
+}
+
+.wp-block-button.is-style-outline a:hover, 
+.wp-block-button.is-style-outline a:focus {
+    color: #fff;
+    background:  var(--sp-primary);
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.wp-block-code code img {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.wp-block-pullquote.has-background blockquote {
+    background: inherit;
+}
+
+.post-section .wp-block-loginout,
+#av-primary-content form.wp-block-search {
+    padding: 20px 0;
+}
+
+pre.has-background code {
+  background-color: inherit;
+}
+
+p.has-text-color em {
+    color: inherit;
+}
+
+.post-section #av-primary-content .wp-block-group {
+    padding: 0 20px;
+}
+
+.wp-block-group em {
+    color: inherit;
+}
+
+.has-text-color em,
+.has-text-color h2 {
+    color: inherit;
+}
+
+a.wp-block-file__button {
+    color: #fff;
+}
+
+.has-text-color * {
+    color: inherit;
+}
+
+.has-text-color a:hover, 
+.has-text-color a:focus {
+    color: inherit;
+}
+
+.wp-block-pullquote.has-text-color blockquote {
+    border-color: inherit;
+}
+
+blockquote {
+    border-color: inherit !important;
+}
+
+.has-background.wp-block-read-more {
+    padding: 5px 10px;
+}
+
+.wp-block-calendar table caption {
+    font-weight: 500;
+}
+
+.wp-block-avatar img {
+    border-radius: 50%;
+}
+
+.widget_block .alignleft {
+    text-align: left;
+    margin: auto;
+}
+
+/**/
+.sidebar .wp-block-tag-cloud {
+    padding: 0 25px 20px;
+	margin-bottom: 0;
+}
+
+.sidebar .wp-block-tag-cloud a {
+    font-size: 15px !important;
+    line-height: 2.5;
+    border-radius: 4px;
+    padding: 0px 15px;
+    position: relative;
+    z-index: 0;
+	margin-bottom: 10px;
+    margin-right: 5px;
+	text-decoration: none;
+}
+
+.sidebar ul.wp-block-social-links{
+	margin-bottom: 0;
+	padding: 15px;
+}
+
+.sidebar ul.wp-block-social-links li{
+	margin-bottom: 0;
+}
+
+.sidebar form.wp-block-search{
+	display: block;
+	margin: 0;
+	max-width: 100%;
+}
+
+.sidebar .widget:not(.widget-none) .wp-block-search__label {
+    border: none;
+    color: #ffffff;
+    background-color: var(--sp-secondary);
+    padding: 11.5px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+	position: relative;
+	display: block;
+	z-index: 0;
+}
+
+.style-dark .sidebar .widget:not(.widget-none) .wp-block-search__label{
+    border-bottom: 1px solid rgb(189 189 189 / 0.45);
+}
+
+.sidebar .wp-block-search__label::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    background-color: inherit;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.sidebar .wp-block-search__label::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--sp-secondary-dark);
+    z-index: -1;
+}
+
+.style-dark .sidebar .wp-block-search__label::after {
+    border: 1px solid rgb(189 189 189 / 0.45);
+    z-index: -2;
+}
+
+.sidebar  .wp-block-search__inside-wrapper  {
+    max-width: 82%;
+	margin:  0 auto 30px;
+}
+
+.sidebar  .wp-block-search__button  {
+    border-radius: 0;
+    margin-left: 0;
+}
+
+.wp-block-image figcaption {
+ 	margin-bottom: 0;
+}
+
+/* gallery cross buttom style */
+button.featherlight-close-icon.featherlight-close {
+    background-color: var(--sp-primary);
+    border: 1px solid var(--sp-white);
+    top: 40px;
+    right: 40px;
+    border-radius: 0;
+}
+
+
+/* circle hover */
+.is-style-circle figure.tiled-gallery__item:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #000;
+    border-radius: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.65s;
+}
+.is-style-circle figure.tiled-gallery__item:hover:before,
+.is-style-circle figure.tiled-gallery__item:focus:before{
+    visibility: visible;
+    opacity: 0.5;
+}
+
+/* circle spacing */
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row{
+	margin-right: calc(-.4 * var(--bs-gutter-x));
+    margin-left: calc(-.4 * var(--bs-gutter-x));
+    --bs-gutter-x: 1.5rem;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row>* {
+    padding-right: calc(var(--bs-gutter-x) * .4);
+    padding-left: calc(var(--bs-gutter-x) * .4);
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row+.tiled-gallery__row {
+    margin-top: 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__col+.tiled-gallery__col {
+    margin-left: 0px;
+}
+
+/* circle box shadow */
+.wp-block-jetpack-tiled-gallery.is-style-circle .tiled-gallery__item {
+    border-radius: 50%;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-rectangular .tiled-gallery__item {
+    width: 100%!important;
+    height: 100%!important;
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__item {
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__gallery{
+	justify-content: center;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item{
+	width: 100%!important;
+	margin-bottom: 20px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item:last-child{
+	margin-bottom: 0px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item {
+    margin-top: 0px;
+}
+
+blockquote.wp-block-quote.has-text-color p, blockquote.wp-block-quote.has-text-color p var, blockquote.wp-block-quote.has-text-color p cite, blockquote.wp-block-quote.has-text-color cite {
+	color: inherit;
+}
+.wp-block-table figcaption {
+	text-align: center;
+}
+.sidebar .widget .wp-block-group .wp-block-image {
+	margin-bottom: 0;
+}
+ul.wp-block-rss {
+ 	list-style: disc;
+}
+.has-text-color a:hover, .has-text-color a:focus {
+	color: inherit;
+}
+.entry-content ul:last-child {
+	margin-bottom: 0;
+}
+.wp-block-code.has-text-color code {
+	color: inherit;
+}
+.sidebar .widget .wp-block-group .is-nowrap p {
+ 	padding: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-date {
+	padding-top: 0.5rem;
+ 	padding-bottom: 0.5rem;
+ 	font-size: 0.875rem;
+}
+
+/*wp-Block-RSS*/
+ul.wp-block-rss {
+	list-style: none;
+	margin-left: 0;
+}
+ul.wp-block-rss li.wp-block-rss__item {
+    margin-bottom: 1rem;
+}
+ul.wp-block-rss li.wp-block-rss__item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-pullquote blockquote {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-rss .wp-block-rss__item-title > a {
+ 	font-weight: 600;
+}
+
+.wp-block-quote.is-style-large {
+	padding-top: 1.10rem;
+	padding-bottom: 1.10rem;
+}
+
+.sidebar .widget .wp-block-group .wp-block-file, .sidebar .widget .wp-block-group .wp-block-image {
+	padding: 1.563rem 1.000rem 1.563rem;
+}
+
+.widget .wp-block-group .is-vertical a {
+    color: inherit;
+}
+
+.entry-content ol.wp-block-latest-comments {
+	padding-left: 2rem;
+}
+
+.wp-block-table figcaption {
+  text-align: center;
+}
+
+.post .entry-content ul.wp-block-archives {
+	margin-left: 1.125rem;
+	list-style: disc
+}
+
+.wp-block-code.has-background code {
+	background: inherit;
+}
+
+.wp-block-group .wp-block-embed,
+.wp-block-group .wp-block-image {
+	 padding: 1.563rem 1.000rem 1.563rem;
+}
+
+.wp-block-archives-dropdown select,
+.wp-block-categories-dropdown select {
+     width: auto;
+}
+
+.widget .wp-block-group .wp-block-columns {
+	margin-bottom: 0;
+}
+
+.widget .wp-block-group .wp-block-rss li:last-child {
+    padding-bottom: 0;
+}
+
+ul.wp-block-page-list a {
+    text-decoration: none;
+}
+
+.sidebar .wp-block-group .is-nowrap {
+    margin: 1.563rem 1.000rem 1.563rem;
+}
+
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-meta {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon {
+	height: 2em;
+	width: 2em;
+}
+
+.sidebar .widget .wp-block-group .is-layout-flow h2 {
+	border-left: 0 none;
+}
+
+.wc-block-components-product-title a,
+.wc-block-components-product-title a:hover,
+.wc-block-components-product-title a:focus {
+	text-decoration: none;
+}
+.wp-block-verse {
+    padding: 10px;
+}
+
+.wp-block-details summary { 
+	font-weight: 600;
+}
+
+.wp-block-calendar .wp-calendar-nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.sidebar .widget .wp-block-group .wp-block-latest-comments,
+.sidebar .widget .wp-block-group .wp-block-loginout,
+.sidebar .widget .wp-block-group .wp-block-table,
+.sidebar .widget .wp-block-group .wp-block-buttons {
+	padding: 1.563rem 1.000rem 1.563rem;
+}
